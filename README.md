@@ -70,7 +70,11 @@ I don't want to worry about the capacities of the queue too much here.
 
 2. The over all structure of this Simulation
 
-                  Input.txt 
+                 
+                 
+  '''               
+                 
+                 Input.txt 
                      |  
                      |                    
             shelves (an Orderqueue)    //read in all the orders from input file,
@@ -91,6 +95,8 @@ I don't want to worry about the capacities of the queue too much here.
         ----------------------------------     //update the stats
                      |
    Statistitian Produces the resulting report 
+   
+   '''
 
 7.Test
 
