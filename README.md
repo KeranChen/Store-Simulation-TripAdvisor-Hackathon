@@ -72,7 +72,7 @@ I don't want to worry about the capacities of the queue too much here.
 
                  
                  
-  '''               
+                 
                  
                  Input.txt 
                      |  
@@ -80,7 +80,7 @@ I don't want to worry about the capacities of the queue too much here.
             shelves (an Orderqueue)    //read in all the orders from input file,
                      |                  // and store them in shelves 
  The Loop            |
-       ---------------------------------- 
+       
                      |                         
                   Fetcher       //check wehter we need to load any orders from
                      |           //shelves and process the topOrder on Fetcher 
@@ -92,11 +92,11 @@ I don't want to worry about the capacities of the queue too much here.
                      |
                 Statistitian       //check whether any orders is completed
                      |              //load the completed orders into records
-        ----------------------------------     //update the stats
+                                   //update the stats
                      |
    Statistitian Produces the resulting report 
    
-   '''
+  
 
 7.Test
 
